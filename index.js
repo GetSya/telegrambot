@@ -68,10 +68,10 @@ function qrisImageUrl(paymentNumber) {
 // SESSION
 // ================================================================
 const sessions = {};
+const agent = new HttpsProxyAgent('http://user:pass@ip_proxy:port');
+
 const bot = new Telegraf(BOT_TOKEN, {
-  telegram: {
-    timeout: 30000 // Memperpanjang batas waktu koneksi ke 30 detik
-  }
+  telegram: { agent }
 });
 
 bot.use((ctx, next) => {
