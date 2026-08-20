@@ -1,0 +1,173 @@
+{
+  "items": [
+    {
+      "id": 1700000000001,
+      "name": "Zoom Pro 1 Bulan",
+      "category": "Bermassa",
+      "waktu": "1 Bulan",
+      "price": 15000,
+      "stock": 10,
+      "description": "Akun Zoom Premium durasi 1 bulan",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1700000000002,
+      "name": "Canva Pro 1 Bulan",
+      "category": "Bermassa",
+      "waktu": "1 Bulan",
+      "price": 12000,
+      "stock": 5,
+      "description": "Canva Pro akun bersama 1 bulan",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1700000000003,
+      "name": "Netflix Premium 1M",
+      "category": "Bermassa",
+      "waktu": "1 Bulan",
+      "price": 20000,
+      "stock": 3,
+      "description": "Akun Netflix Premium 1 bulan",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1700000000004,
+      "name": "MLBB 100 Diamond",
+      "category": "Topup Game",
+      "count": "100",
+      "price": 25000,
+      "stock": 20,
+      "description": "Topup Mobile Legends 100 diamond via ID",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1700000000005,
+      "name": "PUBG UC 60",
+      "category": "Topup Game",
+      "count": "60",
+      "price": 18000,
+      "stock": 15,
+      "description": "Topup PUBG Mobile 60 UC",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1700000000006,
+      "name": "Free Fire 100 Diamond",
+      "category": "Topup Game",
+      "count": "100",
+      "price": 22000,
+      "stock": 7,
+      "description": "Topup Free Fire 100 diamond",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1700000000007,
+      "name": "Kuota 10GB",
+      "category": "Topup Pulsa",
+      "count": "10gb",
+      "price": 75000,
+      "stock": 12,
+      "description": "Paket kuota 10GB semua operator",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1700000000008,
+      "name": "Pulsa 100.000",
+      "category": "Topup Pulsa",
+      "count": "100.000",
+      "price": 100000,
+      "stock": 7,
+      "description": "Isi pulsa all operator 100.000",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1700000000009,
+      "name": "Pulsa 50.000",
+      "category": "Topup Pulsa",
+      "count": "50.000",
+      "price": 50000,
+      "stock": 0,
+      "description": "Isi pulsa all operator 50.000",
+      "status": "Habis"
+    },
+    {
+      "id": 1700000000010,
+      "name": "Spotify Premium 1B",
+      "category": "Bermassa",
+      "waktu": "1 Bulan",
+      "price": 18000,
+      "stock": 6,
+      "description": "Akun Spotify Premium 1 bulan",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1700000000011,
+      "name": "Alight Motion",
+      "category": "Bermassa",
+      "waktu": "1 Bulan",
+      "price": 10000,
+      "stock": 4,
+      "description": "Alight Motion Pro 1 bulan",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1787185328901,
+      "name": "Alight Motion",
+      "category": "Bermassa",
+      "price": 100000,
+      "stock": 10,
+      "description": "AKun",
+      "status": "Tersedia",
+      "waktu": "1 Bulan"
+    }
+  ],
+  "deposits": [
+    {
+      "userId": 123456789,
+      "nominal": 50000,
+      "status": "Pending",
+      "timestamp": 1700000000000
+    },
+    {
+      "userId": 987654321,
+      "nominal": 100000,
+      "status": "Confirmed",
+      "timestamp": 1700000001000
+    },
+    {
+      "id": "DEP-1787185932208-XQVD",
+      "userId": 8521936089,
+      "nominal": 10000,
+      "totalBayar": 10410,
+      "status": "Pending",
+      "timestamp": 1787185933169
+    }
+  ],
+  "orders": [
+    {
+      "userId": 123456789,
+      "itemId": 1700000000004,
+      "itemName": "MLBB 100 Diamond",
+      "price": 25000,
+      "category": "Topup Game",
+      "timestamp": 1700000002000
+    },
+    {
+      "userId": 123456789,
+      "itemId": 1700000000001,
+      "itemName": "Zoom Pro 1 Bulan",
+      "price": 15000,
+      "category": "Bermassa",
+      "timestamp": 1700000003000
+    },
+    {
+      "userId": 1669925773,
+      "itemId": 1700000000008,
+      "itemName": "Pulsa 100.000",
+      "category": "Topup Pulsa",
+      "price": 100000,
+      "timestamp": 1787184958823
+    }
+  ],
+  "tickets": []
+}
