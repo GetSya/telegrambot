@@ -4,9 +4,6 @@ const fs   = require('fs');
 const path = require('path');
 const axios = require('axios');
 
-// ================================================================
-// KONFIGURASI
-// ================================================================
 const BOT_TOKEN      = '8214220902:AAFcrsmIcGHZTIiMh0dnZ0o8uZosHHWCEyI';
 const OWNER_ID       = 1669925773;
 const DB_PATH        = path.join(__dirname, 'db.json');
@@ -70,11 +67,11 @@ function qrisImageUrl(paymentNumber) {
 // SESSION
 // ================================================================
 const sessions = {};
-
-// ================================================================
-// BOT
-// ================================================================
-const bot = new Telegraf(BOT_TOKEN);
+const bot = new Telegraf(BOT_TOKEN, {
+  telegram: {
+    timeout: 30000 // Memperpanjang batas waktu koneksi ke 30 detik
+  }
+});
 
 bot.use((ctx, next) => {
   const from = ctx.from;
