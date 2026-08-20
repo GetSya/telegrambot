@@ -3,6 +3,7 @@ const { Telegraf, Markup } = require('telegraf');
 const fs   = require('fs');
 const path = require('path');
 const axios = require('axios');
+const { HttpsProxyAgent } = require('https-proxy-agent');
 
 const BOT_TOKEN      = '8214220902:AAFcrsmIcGHZTIiMh0dnZ0o8uZosHHWCEyI';
 const OWNER_ID       = 1669925773;
